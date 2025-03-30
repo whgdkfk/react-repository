@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function Footer() {
     return (
         <FooterContainer>
-            <FooterText>© 2025 LSM. All rights reserved.</FooterText>
+            <FooterText>© 2025 JAR. All rights reserved.</FooterText>
         </FooterContainer>
     );
 }

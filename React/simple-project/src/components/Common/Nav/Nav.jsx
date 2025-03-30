@@ -11,7 +11,7 @@ const Nav = () => {
             <NavLink onClick={() => navi("/chap02")}>Chapter02</NavLink>
             <NavLink onClick={() => navi("/chap03")}>Chapter03</NavLink>
             <NavLink onClick={() => navi("/memo")}>오후실습</NavLink>
-            <NavLink>내일실습</NavLink>
+            <NavLink onClick={() => navi("/foods")}>부산맛집보기</NavLink>
         </NavContainer>
     );
 };

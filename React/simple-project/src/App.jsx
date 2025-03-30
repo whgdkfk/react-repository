@@ -12,6 +12,8 @@ import Chapter03 from './components/Chapter/Chapter03/Chapter03';
 import Chapter03Input from './components/Chapter/Chapter03/Chapter03Input';
 import Chapter03B from './components/Chapter/Chapter03/Chapter03B';
 import Memo from './components/Memo/Memo';
+import Foods from './components/Busan/Foods';
+import FoodDetail from './components/Busan/Detail/FoodDetail';
 
 
 /*
@@ -36,6 +38,8 @@ function App() {
         <Route path="/input" element={<Chapter03Input />} />
         <Route path="/minus" element={<Chapter03B />} />
         <Route path="/memo" element={<Memo />} />
+        <Route path="/foods" element={<Foods />} />
+        <Route path="/foods/:id" element={<FoodDetail />} />
         <Route path="/*" element={<h1>존재하지 않는 페이지 요청입니다.</h1>} />
       </Routes>
       
